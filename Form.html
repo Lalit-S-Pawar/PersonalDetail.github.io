@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <style>
+      *{
+        
+        padding: 0%;
+        box-sizing: border-box;
+      }
+    </style>
+</head>
+<body><center>
+  <fieldset style="width:50%">
+    <form action="">
+        <h4>Personal Details</h4>
+    <label for="name">
+        Name:
+        <input type="text"name="fname" placeholder="Enter Name" id="name">
+    </label><br><br>
+    <label for="pass">
+        Password:
+        <input type="password" name="password" placeholder="Enter Password" id="pass">
+    </label><br><br>
+    <label for="phone">
+        Phone No:
+        <input type="tel" name="Phone No" placeholder="Enter Phone No" id="phone"maxlength="10">
+    </label><br><br>
+       <label for="email">
+        Email:
+        <input type="email" name="email" placeholder="abc@gmail.com" id="email">
+       </label><br><br>
+       Gender:
+       <label for="man">
+        <input type="radio" name="Gender"value="Man" id="man">Man
+       </label>
+       <label for="women">
+        <input type="radio"name="Gender"value="Women" id="women">Women
+       </label><br>
+       <h4>Educational Qualification</h4>
+       Degree
+       <select name="Degree" id="">
+        <option value="">Select</option>
+        <option value="Msc">Msc</option>
+        <option value="MCS">MCS</option>
+        <option value="BE">BE</option>
+        <option value="Graduate">Graduate</option>
+       </select>
+       <br><br>
+       Hobbies
+      <label for="reading">
+        <input type="checkbox"name="reading"id="reading">Reading
+      </label>
+      <label for="writing">
+        <input type="checkbox"name="writing"id="writing">Writing
+      </label>
+      <label for="running">
+        <input type="checkbox"name="running"id="running">Running
+      </label>
+      <h4>Address</h4>
+      <textarea name="" id="" cols="30" rows="3"></textarea><br><br>
+      Attach Resume
+      <button>choose File</button> No File Chosen
+      <br><br>
+      <input type="submit" value="submit">
+      
+
+
+
+    </fieldset>
+
+    </center>
+    </form>
+</body>
+</html>
